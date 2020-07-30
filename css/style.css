@@ -77,6 +77,28 @@ section {
   margin-top: 50px;
 }
 
+/* SIMPLIFY */
+#simplify {
+  padding: 50px 0px;
+  background-color: var(--bg-dark-orange);
+  background-image: url('../images/bg-simplify-section-desktop.svg');
+  background-size: cover;
+}
+#simplify h6 {
+  font-size: 3em;
+  color: white;
+}
+.simplify-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.simplify-right button {
+  background-color: white;
+  color: var(--bg-dark-orange);
+}
+
+
 @media (min-width: 768px) {
   #navbar .my-button {
     display: block;
