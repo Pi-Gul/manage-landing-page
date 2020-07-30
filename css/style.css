@@ -6,6 +6,9 @@ html {
   color: white;
   background-color: var(--bg-dark-orange);
 }
+section {
+  margin-top: 100px;
+}
 
 /* NAVBAR */
 #navbar .navbar-nav {
@@ -20,7 +23,7 @@ html {
   display: none;
 }
 
-/*ABOUT US*/
+/* ABOUT US */
 .left-about h2 {
   font-size: 2em;
   font-weight: bold;
@@ -41,6 +44,37 @@ html {
 }
 .features-card p {
   margin-left: 60px;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+
+}
+#testimonials h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+#testimonials .cards-row {
+  display: flex;
+}
+#testimonials .card {
+  width: 500px;
+  background-color: red;
+}
+#testimonials img {
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  left: 200px;
+}
+#testimonials .card-body {
+  margin-top: 40px;
+}
+#testimonials button {
+  display: block;
+  margin: 0px auto;
+  margin-top: 50px;
 }
 
 @media (min-width: 768px) {
