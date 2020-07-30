@@ -17,7 +17,30 @@ html {
   margin: 0px 0px;
 }
 #navbar .my-button {
-    display: none;
+  display: none;
+}
+
+/*ABOUT US*/
+.left-about h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.left-about p {
+  margin-right: 25%;
+}
+.features-card span {
+  background-color: var(--bg-dark-orange);
+  width: 50px;
+  padding: 0px;
+  color: white;
+  margin-right: 10px;
+}
+.features-card h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.features-card p {
+  margin-left: 60px;
 }
 
 @media (min-width: 768px) {
