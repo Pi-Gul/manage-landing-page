@@ -3,23 +3,25 @@ html {
   --bg-dark-orange: #fa5d3e;
 }
 .my-button {
-  display: none;
   color: white;
   background-color: var(--bg-dark-orange);
 }
 
 /* NAVBAR */
-.navbar-nav {
+#navbar .navbar-nav {
   width: 85%;
   margin: 0px auto;
   justify-content: space-around;
 }
-.nav-item {
+#navbar .nav-item {
   margin: 0px 0px;
+}
+#navbar .my-button {
+    display: none;
 }
 
 @media (min-width: 768px) {
-  .my-button {
+  #navbar .my-button {
     display: block;
   }
 }
