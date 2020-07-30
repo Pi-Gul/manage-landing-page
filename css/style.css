@@ -97,7 +97,45 @@ section {
   background-color: white;
   color: var(--bg-dark-orange);
 }
-
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-left .social {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+.footer-center {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-center li {
+  list-style: none;
+}
+.footer-center li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-right form {
+  display: flex;
+  align-items: center;
+}
+.footer-right form button {
+  background-color: var(--bg-dark-orange);
+  padding: 3px 10px;
+  color: white;
+}
 
 @media (min-width: 768px) {
   #navbar .my-button {
