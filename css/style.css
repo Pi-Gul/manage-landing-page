@@ -1,0 +1,32 @@
+html {
+  --bg-light-orange: #fd8d77;
+  --bg-dark-orange: #fa5d3e;
+}
+.my-button {
+  display: none;
+  color: white;
+  background-color: var(--bg-dark-orange);
+}
+
+/* NAVBAR */
+.navbar-nav {
+  width: 85%;
+  margin: 0px auto;
+  justify-content: space-around;
+}
+.nav-item {
+  margin: 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .my-button {
+    display: block;
+  }
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
