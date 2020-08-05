@@ -36,7 +36,7 @@ section {
 
 /* NAVBAR */
 #navbar .navbar {
-  background-color: rgba(0,0,0,10%);
+  background-color: rgba(0,0,0,0%);
 }
 #navbar .navbar-toggler {
   border: 0px;
