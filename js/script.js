@@ -4,7 +4,7 @@ let menuIcon = document.querySelector('.menu-icon');
 const iconOpen = './images/icon-hamburger.svg'
 const iconClose = './images/icon-close.svg'
 
-h1.innerHTML = 'IT WORKS';
+//h1.innerHTML = 'IT WORKS';
 
 console.log(menuIcon);
 
