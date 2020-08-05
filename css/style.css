@@ -1,11 +1,20 @@
 html {
-  --bg-light-orange: #fd8d77;
   --bg-dark-orange: hsl(12, 88%, 59%);
+	--bg-light-orange: hsl(13, 100%, 96%);
+	--bg-highlight-orange: hsl(12, 88%, 70%);
+	--dark-gray-blue: hsl(227, 12%, 61%);
+	--very-dark-blue: hsl(233, 12%, 13%);
+	--very-light-gray: hsl(0, 0%, 98%);
 }
 .my-button {
   color: white;
   background-color: var(--bg-dark-orange);
   padding: 5px 20px;
+	font-weight: bold;
+}
+.my-button:hover, .go-button:hover {
+	background-color: var(--bg-highlight-orange);
+	color: white;
 }
 section {
   margin-top: 100px;
@@ -47,6 +56,9 @@ section {
 #navbar .nav-item {
   margin: 0px 0px;
   font-size: 1em;
+}
+#navbar .nav-link:hover {
+	color: var(--very-light-gray);
 }
 #navbar .my-button {
   display: none;
@@ -92,7 +104,7 @@ section {
 .features-card h3 {
   font-size: 1.1em;
   font-weight: bold;
-  background-color: hsl(13, 100%, 96%);
+  background-color: var(--bg-light-orange);
 }
 .features-card p {
   margin-left: 0px;
@@ -161,11 +173,14 @@ section {
   justify-content: flex-end;
   align-items: center;
 }
-.simplify-right button {
+.simplify-right .my-button {
   background-color: white;
   color: var(--bg-dark-orange);
   margin: 0px auto;
   margin-top: 10px;
+}
+.simplify-right .my-button:hover {
+	color: var(--bg-highlight-orange);
 }
 /* FOOTER */
 footer {
@@ -191,6 +206,9 @@ footer {
   margin: 0px auto;
   margin-bottom: 40px;
 }
+.footer-left .social a {
+	color: red;
+}
 .footer-left .copyright {
 	align-self: center;
 	margin-top: 50px;
@@ -214,6 +232,9 @@ footer {
   text-decoration: none;
   color: white;
 }
+.footer-center li a:hover {
+	color: var(--bg-dark-orange);
+}
 .footer-right {
 	display: flex;
 	flex-direction: column;
@@ -223,6 +244,7 @@ footer {
   align-items: center;
 }
 .footer-right form button {
+	font-weight: bold;
   background-color: var(--bg-dark-orange);
   padding: 3px 20px;
   color: white;
@@ -280,7 +302,7 @@ footer {
   #simplify h6 {
     text-align: left;
   }
-  .simplify-right button {
+  .simplify-right .my-button {
     margin: 0px;
   }
   .footer-left {
