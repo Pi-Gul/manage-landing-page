@@ -1,4 +1,5 @@
 html {
+	font-family: 'Be Vietnam', sans-serif;
   --bg-dark-orange: hsl(12, 88%, 59%);
 	--bg-light-orange: hsl(13, 100%, 96%);
 	--bg-highlight-orange: hsl(12, 88%, 70%);
@@ -33,6 +34,15 @@ section {
   background-position: 250px top;
   background-size: 90%;
 }
+body {
+	font-family: 'Be Vietnam', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	color: var(--very-dark-blue);
+}
+p {
+	color: var(--dark-gray-blue);
+}
 
 /* NAVBAR */
 #navbar .navbar {
@@ -58,7 +68,7 @@ section {
   font-size: 1em;
 }
 #navbar .nav-link:hover {
-	color: var(--very-light-gray);
+	color: hsl(0, 0%, 80%);
 }
 #navbar .my-button {
   display: none;
